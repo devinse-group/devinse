@@ -21,7 +21,7 @@ const config = require('./parameters')
 mongoose.connect(config.dbUri, { useNewUrlParser: true }).then(
   () => {
     /** ready to use. The `mongoose.connect()` promise resolves to undefined. */
-    console.log('Netfy has been connected to Mongo...')
+    console.log('Devinse has been connected to Mongo...')
   },
   err => {
     /** handle initial connection error */

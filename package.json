@@ -4,6 +4,18 @@
   "description": "Develop and Informatic Services",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "global": "^4.3.2",
+    "mongoose": "^5.5.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
@@ -13,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "api": "nodemon ./api/server.js",
+    "dev": "concurrently \"react-scripts start\" \"nodemon server/server.js\""
   },
   "repository": {
     "type": "git",
@@ -33,6 +47,7 @@
     "url": "https://github.com/devinse-group/devinse/issues"
   },
   "homepage": "https://github.com/devinse-group/devinse#readme",
+  "proxy": "http://localhost:4000",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -41,5 +56,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
 }

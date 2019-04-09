@@ -20,7 +20,7 @@ const config = require('../config/parameters')
 // Starting Server
 // ===============================================================
 api.listen(config.apiPort, () => {
-  console.log(`API Rest Netfy running on http://localhost:${config.apiPort}`)
+  console.log(`API Rest Devinse running on http://localhost:${config.apiPort}`)
 })
 
 module.exports = mongoose
