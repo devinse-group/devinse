@@ -1,0 +1,45 @@
+{
+  "name": "devinse",
+  "version": "1.0.0",
+  "description": "Develop and Informatic Services",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devinse-group/devinse.git"
+  },
+  "keywords": [
+    "development",
+    "network",
+    "open sources",
+    "informatic services",
+    "instalations"
+  ],
+  "author": "Angel Labrada Massó, Ricardo Comendador Escalona, Omar Leonardo Piñero Arencibia, Leandro de la Paz Cabrera, Carlos Raúl Laguna",
+  "contributors": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devinse-group/devinse/issues"
+  },
+  "homepage": "https://github.com/devinse-group/devinse#readme",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
